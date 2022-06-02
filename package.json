@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/TanoCuile/price-comparator/issues"
   },
-  "homepage": "https://github.com/TanoCuile/price-comparator#readme"
+  "homepage": "https://github.com/TanoCuile/price-comparator#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1",
+    "pm2": "^5.2.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
 }
