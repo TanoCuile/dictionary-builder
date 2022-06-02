@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <img src="/public/some_image.png" />
+
+    <ul>
+        <% for (const catName of existingCategories) {%>
+            <li>
+                <a href="/category/<%= catName %>"><%= catName %></a>
+            </li>
+            <% } %>
+    </ul>
+</body>
+
+</html>
